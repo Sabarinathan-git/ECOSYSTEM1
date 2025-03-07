@@ -1,0 +1,26 @@
+{ margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif; 
+}
+body { background: #f4f4f4; color: #333; text-align: center; overflow-x: hidden; }
+header { background: #27ae60; padding: 20px; color: white; font-size: 2rem; font-weight: bold; animation: fadeInDown 1s ease-in-out; }
+nav { background: #2ecc71; padding: 15px; display: flex; justify-content: center; gap: 20px; }
+nav a { color: white; text-decoration: none; font-size: 1.2rem; transition: color 0.3s; }
+nav a:hover { color: #222; }
+.container { display: flex; flex-wrap: wrap; justify-content: center; padding: 40px; gap: 20px; }
+.product { width: 280px; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: transform 0.3s, box-shadow 0.3s; }
+.product:hover { transform: translateY(-10px); box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
+img { width: 100%; border-radius: 10px; transition: transform 0.3s; }
+.product:hover img { transform: scale(1.05); }
+h3 { margin: 15px 0; }
+p { font-size: 1rem; color: #555; }
+.btn { background: #27ae60; color: white; padding: 12px 18px; border: none; cursor: pointer; border-radius: 8px; font-size: 1rem; transition: background 0.3s, transform 0.3s; }
+.btn:hover { background: #2ecc71; transform: scale(1.05); }
+.featured { background: white; padding: 50px; margin: 30px auto; width: 80%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+.testimonials { background: #ecf0f1; padding: 50px; }
+.testimonial { max-width: 600px; margin: 20px auto; font-style: italic; }
+.newsletter { background: white; padding: 40px; margin: 30px auto; width: 60%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+input[type="email"] { padding: 10px; width: 70%; border: 1px solid #ccc; border-radius: 8px; }
+footer { background: #222; color: white; padding: 20px; font-size: 1rem; margin-top: 30px; }
+@keyframes fadeInDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
